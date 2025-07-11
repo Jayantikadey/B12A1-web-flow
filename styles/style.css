@@ -1,0 +1,128 @@
+
+.inter-normal {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-normal {
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f8ff;
+}
+/* share style */
+.btn-primary {
+  color: white;
+  background-color:#4E47FF ;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4e47ff 0%);
+  box-shadow: 0 5px 15px rgba(66, 158, 220, 0.25);
+  transform: scale(1.05);
+}
+
+/* header style */
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 698px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  padding: 50px 150px 0 150px;
+  margin: 0 auto;
+  gap: 909px;
+  
+}
+.nav-button {
+  width: 132px;
+  height: 48px;
+}
+
+.nav-logo{
+color: rgb(78, 71, 255);
+font-size: 34px;
+font-weight: 900;
+/* text-align: left; */
+}
+
+.banner-section {
+  margin: 0 auto;
+  align-items: center;
+  width: 905px;
+  height: 237px;
+  text-align: center;
+}
+
+.banner-title {
+  margin-top: 150px;
+  font-size: 65px;
+  color:#252432;
+  font-weight: 700;
+  width: 905px;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.banner-btn {
+  margin-top: 0;
+  width: 174px;
+  height: 48px;
+}
+
+/* action style */
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 116px auto;
+  gap: 220px;
+}
+.action-container {
+  width: 517px;
+  height: 203px;
+}
+.action-title {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0 23px;
+}
+.action-description {
+  margin: 23px 0;
+  color: #25243280;
+  font-size: 24px;
+  font-weight: 400;
+  width: 517px;
+}
+.action-button {
+  height: 48px;
+  width: 229px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+
+}
+.action-image {
+  border-radius: 48px;
+  width: 403px;
+}
