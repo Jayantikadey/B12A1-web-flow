@@ -227,3 +227,64 @@ font-weight: 900;
     padding: 0;
     color: #757575;
 }
+
+/* touch area style */
+.touch-section {
+  max-width: 1140px;
+  gap: 115px;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.touch-title {
+  font-size: 97px;
+  font-weight: 700;
+  width: 528px;
+  color: #000000;
+}
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+input {
+  width: 465px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+  font-size: 1.2rem;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color:#00000080;
+  
+}
+textarea {
+  width: 465px;
+  height: 135px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 32px;
+  padding-top: 19px;
+  font-size: 1.2rem;
+}
+textarea::placeholder {
+  color: #00000080;
+  font-size: 20px;
+}
+.form-btn {
+  width: 497px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 19px;
+}
+
