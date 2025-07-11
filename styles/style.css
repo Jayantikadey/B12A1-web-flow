@@ -27,7 +27,7 @@ body {
   cursor: pointer;
 }
 .btn-primary:hover {
-  background: linear-gradient(90deg, #4e47ff 0%);
+  background: linear-gradient(90deg, #4640f6 0%);
   box-shadow: 0 5px 15px rgba(66, 158, 220, 0.25);
   transform: scale(1.05);
 }
@@ -286,5 +286,44 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 700;
   margin-top: 19px;
+}
+
+/* footer style */
+footer {
+  background-color: #FFFFFF;
+  height: 428px;
+  margin: 0 auto;
+  text-align: center;
+  width: 1440px;
+}
+.footer-section {
+  width: 531px;
+  height: 177px;
+  margin: 104px auto 0;
+  padding-top: 104px;
+}
+.footer-title {
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+.footer-description {
+  color: #8987A1;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.footer-link {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.footer-link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #8987A1;
 }
 
